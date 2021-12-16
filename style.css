@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* golbal */
+
+header {
+  width: auto;
+  height: 290px;
+  background-color: rgba(61, 119, 129, 0.705);
+  padding: 0 0 0 0;
+}
+
+.flex-box-holder {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.profile-picture-holder {
+  width: 300px;
+  height: 290px;
+}
+
+.profile {
+  margin: 45px 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10rem;
+}
+
+.set-of-skill {
+  margin: 6rem 30px;
+}
+
+/* header-info */
+
+.main-section-holder {
+  height: 500px;
+  background-color: rgba(29, 77, 92, 0.795);
+  padding: 10px 10px 10px 10px;
+}
+
+.test1 {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  background-color: rgb(219, 213, 188);
+}
+
+.heading {
+  margin: 0 0 20px;
+}
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+}
+
+.project {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  background-color: rgb(219, 213, 188);
+}
+
+.project-heading {
+  margin: 0 0 20px;
+}
