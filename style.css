@@ -39,12 +39,6 @@ header {
   top: 20%;
 }
 
-.name-heading {
-}
-
-.skill {
-}
-
 /* -----------main section--------- */
 .test1 {
   padding: 30px;
@@ -89,17 +83,10 @@ header {
   .name-heading {
     font-size: 35px;
     margin: 45px 0 0 0;
-    /* position: absolute;
-    top: 35px; */
   }
 
   .skill {
     font-size: 18px;
-    /* margin: 0 0 0 44px; */
-    /* position: absolute;
-    float: left;
-    right: 30px;
-    top: 25%; */
   }
 }
 
@@ -132,42 +119,3 @@ header {
     font-size: 13px;
   }
 }
-
-/* .profile {
-  float: left;
-  margin: 25px 30px;
-  width: 150px;
-  height: 150px;
-  border-radius: 10rem;
-}
-
-.name-heading {
-  color: rgb(54, 63, 60);
-  height: 50px;
-  margin: 40px;
-  text-align: center;
-}
-
-.skill {
-  color: rgb(54, 63, 60);
-  height: 50px;
-  text-align: center;
-} */
-
-/* .set-of-skill {
-  margin: 5rem 30px;
-}
-
-header {
-  width: auto;
-  height: 290px;
-  
-  padding: 0 0 0 0;
-}
-
-.flex-box-holder {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  width: 100vh;
-} */
