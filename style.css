@@ -5,12 +5,163 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* golbal */
+header {
+  width: 100%;
+  background-color: rgba(61, 119, 129, 0.705);
+}
+
+.profile-holder {
+  width: auto;
+  height: 260px;
+  padding: 15px;
+  display: flex;
+}
+
+.main-section-holder {
+  height: 100vh;
+  width: auto;
+  background-color: rgba(29, 77, 92, 0.795);
+  padding: 10px 10px 10px 10px;
+}
+
+.info-container {
+  margin: 65px 0 0 35px;
+}
+/* ~~~~~~~~~~~~~~~~~~GLOBAL~~~~~~~~~~~~~~~~ */
+
+/* ----------porfile--------- */
+
+.picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 7rem;
+  margin: 56px 0 0 15px;
+  top: 20%;
+}
+
+.name-heading {
+}
+
+.skill {
+}
+
+/* -----------main section--------- */
+.test1 {
+  padding: 30px;
+  background-color: rgb(219, 213, 188);
+}
+
+.heading {
+  margin: 0 0 20px;
+  color: rgb(54, 63, 60);
+}
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  color: rgb(54, 63, 60);
+}
+
+.project {
+  padding: 30px;
+  background-color: rgb(219, 213, 188);
+  color: rgb(54, 63, 60);
+}
+
+.project-heading {
+  margin: 0 0 20px;
+}
+
+/* ----------media query------------- */
+
+@media only screen and (max-width: 514px) {
+  .info-container {
+    margin: 15px 0 0 45px;
+  }
+
+  .picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 7rem;
+    margin: 56px 0 0 15px;
+    top: 20%;
+  }
+
+  .name-heading {
+    font-size: 35px;
+    margin: 45px 0 0 0;
+    /* position: absolute;
+    top: 35px; */
+  }
+
+  .skill {
+    font-size: 18px;
+    /* margin: 0 0 0 44px; */
+    /* position: absolute;
+    float: left;
+    right: 30px;
+    top: 25%; */
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .profile-holder {
+    height: 210px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .picture {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+  }
+  .info-container {
+    margin: 15px;
+    height: 120px;
+    position: absolute;
+    top: 87px;
+  }
+
+  .name-heading {
+    font-size: 20px;
+  }
+
+  .skill {
+    font-size: 13px;
+  }
+}
+
+/* .profile {
+  float: left;
+  margin: 25px 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10rem;
+}
+
+.name-heading {
+  color: rgb(54, 63, 60);
+  height: 50px;
+  margin: 40px;
+  text-align: center;
+}
+
+.skill {
+  color: rgb(54, 63, 60);
+  height: 50px;
+  text-align: center;
+} */
+
+/* .set-of-skill {
+  margin: 5rem 30px;
+}
 
 header {
   width: auto;
   height: 290px;
-  background-color: rgba(61, 119, 129, 0.705);
+  
   padding: 0 0 0 0;
 }
 
@@ -18,54 +169,5 @@ header {
   display: flex;
   flex-direction: row;
   height: 100%;
-}
-
-.profile-picture-holder {
-  width: 300px;
-  height: 290px;
-}
-
-.profile {
-  margin: 45px 50px;
-  width: 200px;
-  height: 200px;
-  border-radius: 10rem;
-}
-
-.set-of-skill {
-  margin: 6rem 30px;
-}
-
-/* header-info */
-
-.main-section-holder {
-  height: 500px;
-  background-color: rgba(29, 77, 92, 0.795);
-  padding: 10px 10px 10px 10px;
-}
-
-.test1 {
-  width: auto;
-  height: auto;
-  padding: 30px;
-  background-color: rgb(219, 213, 188);
-}
-
-.heading {
-  margin: 0 0 20px;
-}
-
-.paragraph {
-  font-family: "Roboto", sans-serif;
-}
-
-.project {
-  width: auto;
-  height: auto;
-  padding: 30px;
-  background-color: rgb(219, 213, 188);
-}
-
-.project-heading {
-  margin: 0 0 20px;
-}
+  width: 100vh;
+} */
